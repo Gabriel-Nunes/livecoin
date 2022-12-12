@@ -2,7 +2,7 @@
 
 A webcrawler for cryptos using Scrapy.
 
-This package get crypto currecies data from "https://www.livecoinwatch.com".
+This package get crypto currencies data from "https://www.livecoinwatch.com".
 
 Input:
 
