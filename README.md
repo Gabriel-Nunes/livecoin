@@ -1,2 +1,2 @@
 # livecoin
-A webcrawler for cryptos
+A webcrawler for cryptos using Scrapy.
