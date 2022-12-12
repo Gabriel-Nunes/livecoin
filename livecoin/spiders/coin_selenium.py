@@ -31,5 +31,9 @@ class CoinSpiderSelenium(scrapy.Spider):
         for currency in self.resp.xpath("//tbody/tr"):
             yield {
                 'Coin': currency.xpath(".//td[2]/a/div/div[contains(@class, 'item-name')]/small/text()").get(),
-                'Volume(24h)': currency.xpath(".//td[5]/text()").get()
+                'Price': currency.xpath(".//td[3]/text()[2]").get(),
+                'Liquidity': currency.xpath(".//td[6]/text()").get(),
+                'Market_Cap': currency.xpath(".//td[4]/text()").get(),
+                'Volume(24h)': currency.xpath(".//td[5]/text()").get(),
+                'All_time': currency.xpath(".//td[7]/text()").get()
             }

@@ -2,7 +2,15 @@
 
 A webcrawler for cryptos using Scrapy.
 
-This package scrape crypto currecies data from "https://www.livecoinwatch.com".
+This package get crypto currecies data from "https://www.livecoinwatch.com".
+
+Input:
+
+![img](screenshots/Screenshot_1.png)
+
+Output:
+
+![img](screenshots/Screenshot_2.png)
 
 ## Technologies
 
@@ -39,4 +47,7 @@ Activate the virtual environment and update pip:
 
 On root directory run:
 
-    scrapy crawl coin_selenium
+    scrapy crawl coin_selenium -o results.csv
+
+Check your "results.csv".
+
