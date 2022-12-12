@@ -2,7 +2,14 @@
 
 A webcrawler for cryptos using Scrapy.
 
-### Requirements
+This package scrape crypto currecies data from "https://www.livecoinwatch.com".
+
+## Technologies
+
+- Python
+- Scrapy (web scraping python framework)
+
+## Requirements
 
     - Python 3.x
     - Google Chrome
@@ -16,7 +23,7 @@ A webcrawler for cryptos using Scrapy.
 
 3. Unzip chromedriver to project's root.
 
-### Installation
+## Installation
 
 Create a python environment:
 
@@ -28,7 +35,7 @@ Activate the virtual environment and update pip:
     
     pip install -r requirements.txt
 
-### Running the crawler
+## Running the crawler
 
 On root directory run:
 
